@@ -1,0 +1,15 @@
+
+target 'iMovieApp' do
+  use_frameworks!
+
+    pod 'RxSwift',    '~> 4.4.0'
+    pod 'RxCocoa',    '~> 4.4.0'
+
+  # Pods for iMovieApp
+
+  target 'iMovieAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
